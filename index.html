@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="container">
+      <div class="header-wrapper">
+        <h1>Weather App</h1>
+        <span class="emoji"></span>
+      </div>
+      <div class="seach-wrapper">
+        <h2>Type your location name down bellow !</h2>
+        <input id="search-box" type="search" />
+        <button id="button">Search</button>
+      </div>
+      <div id="weather" class="display-none grid-weather">
+        <span id="image"></span>
+        <div class="primary-weather-info">
+          <h2><span id="location"></span></h2>
+          <h2><span id="degrees-celcius"></span>°C</h2>
+        </div>
+        <div>
+          <h3>Feels like: <span id="degrees-feels"></span>°C</h3>
+          <h3>
+            Wind: <span id="wind-speed"></span>m/s
+            <span id="direction"></span>
+          </h3>
+        </div>
+        <div>
+          <h3>Visibility: <span id="visibility"></span>m</h3>
+          <h3>Humidity: <span id="humidity"></span>%</h3>
+        </div>
+        <h3>Pressure: <span id="pressure"></span>hPa</h3>
+      </div>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
