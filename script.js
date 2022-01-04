@@ -70,17 +70,3 @@ button.addEventListener("click", () => {
     throw "Error: Invalid input.";
   }
 });
-
-// base: "stations"
-// clouds: {all: 20}
-// cod: 200
-// coord: {lon: -0.1257, lat: 51.5085}
-// dt: 1641212219
-// id: 2643743
-// main: {temp: 283.47, feels_like: 282.65, temp_min: 282.42, temp_max: 284.26, pressure: 1009, …}
-// name: "London"
-// sys: {type: 2, id: 2019646, country: 'GB', sunrise: 1641197149, sunset: 1641225821}
-// timezone: 0
-// visibility: 10000
-// weather: [{…}]
-// wind: {speed: 6.17, deg: 240}
